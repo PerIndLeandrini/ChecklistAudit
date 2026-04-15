@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import hmac
 import io
 import json
 from docx import Document
@@ -498,6 +499,78 @@ ESITO_UI = {
 NORM_OPTIONS = ["9001", "14001", "45001"]
 AUDIT_TYPE_OPTIONS = ["Iniziale", "1° Sorveglianza", "2° Sorveglianza", "Rinnovo"]
 TEMPLATE_STAGE_OPTIONS = ["S1", "S2"]
+
+
+# -----------------------------
+# AUTH
+# -----------------------------
+def get_configured_users() -> Dict[str, str]:
+    try:
+        users = st.secrets["auth"]["users"]
+    except Exception:
+        return {}
+    return {str(username): str(password) for username, password in users.items()}
+
+
+def logout() -> None:
+    st.session_state["authenticated"] = False
+    st.session_state.pop("username", None)
+    st.rerun()
+
+
+def require_login() -> None:
+    if st.session_state.get("authenticated", False):
+        return
+
+    users = get_configured_users()
+
+    if not users:
+        st.title("🔐 Accesso riservato")
+        st.error("Autenticazione non configurata. Inserisci utenti e password nei secrets di Streamlit Cloud.")
+        st.code(
+            """[auth.users]
+admin = "cambiaquesta_password"
+cliente1 = "altra_password"""
+        )
+        st.stop()
+
+    st.title("🔐 Accesso riservato")
+    st.caption("Inserisci le credenziali per accedere all'app.")
+
+    left, center, right = st.columns([1, 1.2, 1])
+    with center:
+        st.markdown(
+            """
+            <div class="audit-card" style="margin-top:8px;">
+                <div style="font-size:1.05rem;font-weight:800;margin-bottom:6px;">Login</div>
+                <div style="color:#475467;font-size:0.95rem;margin-bottom:10px;">
+                    Accesso protetto tramite credenziali configurate nei secrets.
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        with st.form("login_form", clear_on_submit=False):
+            username = st.text_input("Utente")
+            password = st.text_input("Password", type="password")
+            submitted = st.form_submit_button("Accedi", use_container_width=True)
+
+        if submitted:
+            username = username.strip()
+            stored_password = users.get(username)
+            if stored_password and hmac.compare_digest(password, stored_password):
+                st.session_state["authenticated"] = True
+                st.session_state["username"] = username
+                st.session_state.pop("login_error", None)
+                st.rerun()
+            else:
+                st.session_state["login_error"] = "Credenziali non valide."
+
+        if st.session_state.get("login_error"):
+            st.error(st.session_state["login_error"])
+
+    st.stop()
 
 
 # -----------------------------
@@ -1096,8 +1169,10 @@ def build_word_report(payload: Dict[str, Any]) -> bytes:
 # UI HELPERS
 # -----------------------------
 def sidebar_header_form() -> None:
+    current_user = st.session_state.get("username", "")
+
     st.sidebar.markdown(
-        """
+        f"""
         <div style="
             padding:10px 12px;
             border-radius:14px;
@@ -1107,10 +1182,14 @@ def sidebar_header_form() -> None:
         ">
             <div style="font-size:0.80rem; opacity:0.85; color:#DCEBFF;">Audit Manager</div>
             <div style="font-size:1.05rem; font-weight:800; color:white;">Configurazione audit</div>
+            <div style="margin-top:8px; font-size:0.85rem; color:#DCEBFF;">Utente connesso: <b>{current_user}</b></div>
         </div>
         """,
         unsafe_allow_html=True,
     )
+
+    if st.sidebar.button("🔓 Logout", key="logout_button"):
+        logout()
     h = st.session_state.audit_header_iso
     st.sidebar.markdown(
         """
@@ -1357,6 +1436,8 @@ def render_observations() -> None:
 # APP
 # -----------------------------
 def main() -> None:
+    require_login()
+
     checklist = load_checklist()
     init_session(checklist)
     sidebar_header_form()
