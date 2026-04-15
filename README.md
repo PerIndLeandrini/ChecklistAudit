@@ -1,6 +1,3 @@
-# ChecklistAudit
-APP per la conduzione di audit e relativa checklist secondo norma UNI EN ISO 9001:2015
-
 # Audit Certificazione ISO – Streamlit App
 
 Applicazione Streamlit per la gestione guidata di audit di certificazione ISO, con compilazione checklist, osservazioni finali, azioni conseguenti ed esportazione dei report.

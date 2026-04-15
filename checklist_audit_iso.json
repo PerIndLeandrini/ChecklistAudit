@@ -1,0 +1,1348 @@
+{
+  "meta": {
+    "name": "Checklist ISO Integrata",
+    "version": "1.0",
+    "description": "Matrice iniziale ampliata derivata dal modello Word ISO 9001/14001/45001.",
+    "source": "Check List 9-14-45 r2 gen 26.docx"
+  },
+  "sections": [
+    {
+      "code": "OPENING",
+      "title": "Riunione iniziale",
+      "type": "special",
+      "items": [
+        {
+          "id": "OPEN-01",
+          "clause": "Opening",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati presentati gruppo di audit, ruoli, compiti e responsabilità?"
+        },
+        {
+          "id": "OPEN-02",
+          "clause": "Opening",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati confermati riservatezza, standard di riferimento, scopo e principali modifiche organizzative?"
+        },
+        {
+          "id": "OPEN-03",
+          "clause": "Opening",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono state spiegate modalità di audit, campionamento, gestione NC e comunicazioni durante la visita?"
+        },
+        {
+          "id": "OPEN-04",
+          "clause": "Opening",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati confermati guide, disponibilità uffici/infrastrutture, gestione pause, emergenze e riunione finale?"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "title": "4. Context of the organisation",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "4.1-01",
+          "clause": "4.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione ha determinato questioni esterne e interne rilevanti per scopo e direzioni strategiche?"
+        },
+        {
+          "id": "4.1-CC",
+          "clause": "4.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione ha valutato la pertinenza del cambiamento climatico rispetto al proprio sistema di gestione?"
+        },
+        {
+          "id": "4.2-01",
+          "clause": "4.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono state identificate le parti interessate rilevanti e i relativi requisiti, inclusi i lavoratori per la SSL?"
+        },
+        {
+          "id": "4.2-CC",
+          "clause": "4.2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati considerati i requisiti delle parti interessate anche in relazione al cambiamento climatico?"
+        },
+        {
+          "id": "4.3-01",
+          "clause": "4.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'ambito del sistema di gestione è determinato, documentato e coerente con eventuali esclusioni dichiarate?"
+        },
+        {
+          "id": "4.4-01",
+          "clause": "4.4.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione ha determinato i processi necessari al sistema di gestione?"
+        },
+        {
+          "id": "4.4-02",
+          "clause": "4.4.2 / 7.5.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le informazioni documentate sono conservate per dare fiducia che i processi siano svolti come pianificato?"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "title": "5. Leadership",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "5.1-01",
+          "clause": "5.1.1/5.1.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "La direzione dimostra leadership e impegno verso il sistema di gestione, incluso il focus cliente per SGQ?"
+        },
+        {
+          "id": "5.2-01",
+          "clause": "5.2.1/5.2.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Esiste una politica documentata pertinente che soddisfa i requisiti applicabili?"
+        },
+        {
+          "id": "5.2-02",
+          "clause": "5.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "La politica è comunicata, compresa e disponibile alle parti interessate rilevanti?"
+        },
+        {
+          "id": "5.3-01",
+          "clause": "5.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Ruoli, responsabilità e autorità sono determinati e compresi?"
+        },
+        {
+          "id": "5.4-01",
+          "clause": "5.4",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati attuati consultazione e partecipazione dei lavoratori e dei loro rappresentanti?"
+        },
+        {
+          "id": "5.4-ANX",
+          "clause": "SSL Appendice Nazionale 5.3/5.4",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I lavoratori sono messi in grado di segnalare pericoli e preoccupazioni senza ritorsioni e con modalità coerenti alla normativa?"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "title": "6. Planning",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "6.1.1-01",
+          "clause": "6.1.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Nel pianificare il sistema di gestione, l'organizzazione considera questioni e requisiti dei punti 4.1 e 4.2 e determina rischi e opportunità?"
+        },
+        {
+          "id": "6.1.1-SSL",
+          "clause": "6.1.1",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Per la SSL sono presenti identificazione dei pericoli, valutazione dei rischi e determinazione dei controlli necessari?"
+        },
+        {
+          "id": "6.1.2-01",
+          "clause": "6.1.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono definite azioni per affrontare rischi e opportunità?"
+        },
+        {
+          "id": "6.1.2-ENV",
+          "clause": "6.1.2",
+          "norms": [
+            "14001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli aspetti ambientali delle attività, prodotti e servizi sono determinati e documentati?"
+        },
+        {
+          "id": "6.1.2-HS",
+          "clause": "6.1.2",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Pericoli, rischi e opportunità SSL sono determinati e documentati?"
+        },
+        {
+          "id": "6.1.3-01",
+          "clause": "6.1.3",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli obblighi di conformità legale sono determinati e documentati?"
+        },
+        {
+          "id": "6.1.4-01",
+          "clause": "6.1.4",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione pianifica azioni per affrontare aspetti ambientali significativi, pericoli SSL, obblighi di conformità e rischi identificati?"
+        },
+        {
+          "id": "6.2-01",
+          "clause": "6.2.1/6.2.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli obiettivi sono fissati ai livelli e processi pertinenti, con risorse, responsabilità, tempistiche e valutazioni associate?"
+        },
+        {
+          "id": "6.3-01",
+          "clause": "6.3",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le modifiche al sistema di gestione sono eseguite in modo pianificato?"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "title": "7. Support",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "7.1.1-01",
+          "clause": "7.1.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione ha determinato e fornito le risorse necessarie per stabilire, attuare, mantenere e migliorare il sistema di gestione?"
+        },
+        {
+          "id": "7.1.2-01",
+          "clause": "7.1.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono determinate e fornite le persone necessarie per l'efficace attuazione del sistema e il controllo dei processi?"
+        },
+        {
+          "id": "7.1.3-01",
+          "clause": "7.1.3/7.1.4",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Infrastrutture e ambiente operativo sono determinati e forniti?"
+        },
+        {
+          "id": "7.1.5-01",
+          "clause": "7.1.5.1",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono fornite le risorse necessarie per garantire risultati validi e affidabili durante monitoraggio e misurazione?"
+        },
+        {
+          "id": "7.1.5-02",
+          "clause": "7.1.5.2",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Se richiesta la riferibilità delle misure, le apparecchiature sono identificate, verificate e protette da regolazioni improprie?"
+        },
+        {
+          "id": "7.1.6-01",
+          "clause": "7.1.6",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Esiste conoscenza sufficiente per il funzionamento dei processi e la conformità di prodotti e servizi?"
+        },
+        {
+          "id": "7.2-01",
+          "clause": "7.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Competenze, formazione e registrazioni sono determinate, fornite e conservate?"
+        },
+        {
+          "id": "7.3-01",
+          "clause": "7.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le persone sono consapevoli di politica, obiettivi, contributo al SG e implicazioni della non conformità?"
+        },
+        {
+          "id": "7.4-01",
+          "clause": "7.4",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "La comunicazione interna ed esterna del sistema di gestione è definita e attuata?"
+        },
+        {
+          "id": "7.4.2-01",
+          "clause": "E&H 7.4.2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione comunica internamente informazioni rilevanti per EMS e SSL ai vari livelli?"
+        },
+        {
+          "id": "7.4.3-01",
+          "clause": "E&H 7.4.3",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione comunica all'esterno informazioni rilevanti per EMS e SSL secondo obblighi applicabili?"
+        },
+        {
+          "id": "7.5-01",
+          "clause": "7.5.1 / 7.5.2 / 7.5.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le informazioni documentate sono disponibili, controllate, revisionate, protette e con adeguata gestione delle versioni?"
+        }
+      ]
+    },
+    {
+      "code": "8Q",
+      "title": "8. Operation / Customer Process",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "8.1-Q-01",
+          "clause": "8.1",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Pianificazione e controllo operativo sono attuati per soddisfare i requisiti della fornitura di prodotti e servizi?"
+        },
+        {
+          "id": "8.2.1-01",
+          "clause": "8.2.1",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "La comunicazione con il cliente è gestita in modo adeguato?"
+        },
+        {
+          "id": "8.2.2-01",
+          "clause": "8.2.2",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I requisiti per prodotti e servizi sono determinati, inclusi quelli cogenti e quelli ritenuti necessari dall'organizzazione?"
+        },
+        {
+          "id": "8.2.3-01",
+          "clause": "8.2.3",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Prima di impegnarsi verso il cliente, l'organizzazione riesamina i requisiti di prodotti e servizi?"
+        },
+        {
+          "id": "8.2.4-01",
+          "clause": "8.2.4",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le modifiche ai requisiti di prodotti e servizi sono controllate?"
+        },
+        {
+          "id": "8.3.4-01",
+          "clause": "8.3.4",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Nel design & development sono presenti controlli, riesami, verifiche, validazioni e gestione dei problemi rilevati?"
+        },
+        {
+          "id": "8.4.1-01",
+          "clause": "8.4.1 / 8.4.2",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione determina tipo ed estensione dei controlli su processi, prodotti e servizi forniti dall'esterno?"
+        },
+        {
+          "id": "8.4.3-01",
+          "clause": "8.4.3",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I requisiti verso fornitori esterni sono adeguati prima della loro comunicazione?"
+        },
+        {
+          "id": "8.5.1-01",
+          "clause": "8.5.1",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Produzione e fornitura di servizi sono svolte in condizioni controllate?"
+        },
+        {
+          "id": "8.5.2-01",
+          "clause": "8.5.2",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Identificazione e tracciabilità sono assicurate quando necessario?"
+        },
+        {
+          "id": "8.5.3-01",
+          "clause": "8.5.3",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le proprietà di clienti o fornitori esterni sono gestite con la dovuta cura?"
+        },
+        {
+          "id": "8.5.4-01",
+          "clause": "8.5.4",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli output sono preservati durante produzione e fornitura del servizio?"
+        },
+        {
+          "id": "8.5.5-01",
+          "clause": "8.5.5",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I requisiti relativi alle attività post-consegna sono considerati e soddisfatti?"
+        },
+        {
+          "id": "8.5.6-01",
+          "clause": "8.5.6",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le modifiche alla produzione o alla fornitura del servizio sono riesaminate e controllate?"
+        },
+        {
+          "id": "8.6-01",
+          "clause": "8.6",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Il rilascio di prodotti e servizi avviene sulla base di disposizioni pianificate e verifiche ai punti opportuni?"
+        },
+        {
+          "id": "8.7-01",
+          "clause": "8.7",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli output non conformi sono identificati e controllati per prevenirne uso o consegna non intenzionali?"
+        }
+      ]
+    },
+    {
+      "code": "8EH",
+      "title": "8. Operation / Health & Environment",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "8EH-01",
+          "clause": "E&H 8.1/2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Pianificazione e controllo operativo ambiente/SSL risultano stabiliti e mantenuti?"
+        },
+        {
+          "id": "8EH-02",
+          "clause": "E&H 8.1/2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione ha stabilito, implementato e mantenuto processi per prepararsi e rispondere a potenziali emergenze?"
+        },
+        {
+          "id": "8EH-03",
+          "clause": "E&H 8.1/2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Esiste evidenza documentata a supporto dei processi di emergenza?"
+        },
+        {
+          "id": "8EH-04",
+          "clause": "E&H 8.1/2",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I processi di emergenza sono stati valutati e riesaminati con evidenze pertinenti?"
+        },
+        {
+          "id": "8.1.2-SSL",
+          "clause": "SSL 8.1.2",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono adottate misure per eliminazione dei pericoli e riduzione dei rischi SSL, inclusa la gestione dei DPI quando applicabile?"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "title": "9. Performance evaluation",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "9.1.1-01",
+          "clause": "9.1.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "L'organizzazione valuta prestazioni ed efficacia del sistema di gestione?"
+        },
+        {
+          "id": "9.1.1-02",
+          "clause": "9.1.1",
+          "norms": [
+            "9001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono disponibili evidenze di soddisfazione delle esigenze e aspettative dei clienti?"
+        },
+        {
+          "id": "9.1.1-03",
+          "clause": "9.1.1",
+          "norms": [
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Esiste un processo per valutare l'adempimento agli obblighi di conformità?"
+        },
+        {
+          "id": "9.1.1-04",
+          "clause": "9.1.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I dati di monitoraggio e misurazione vengono analizzati e valutati, inclusi conformità, soddisfazione cliente, efficacia del SG e necessità di miglioramento?"
+        },
+        {
+          "id": "9.2-01",
+          "clause": "9.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli audit interni sono eseguiti a intervalli pianificati per verificare conformità e mantenimento del sistema?"
+        },
+        {
+          "id": "9.2-02",
+          "clause": "9.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Gli audit interni sono programmati ed eseguiti correttamente, con azioni correttive documentate quando necessario?"
+        },
+        {
+          "id": "9.3-01",
+          "clause": "9.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I riesami della direzione considerano input rilevanti, adeguatezza risorse, efficacia azioni su rischi/opportunità e opportunità di miglioramento?"
+        },
+        {
+          "id": "9.3-02",
+          "clause": "9.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le decisioni e azioni in uscita dal riesame della direzione risultano definite e tracciabili?"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "10. Improvement",
+      "type": "requirements",
+      "items": [
+        {
+          "id": "10.1-01",
+          "clause": "10.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono individuate opportunità di miglioramento e avviate azioni per implementarle, inclusi requisiti del cliente quando applicabili?"
+        },
+        {
+          "id": "10.2.1-01",
+          "clause": "10.2.1",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Le non conformità e le azioni correttive sono adeguatamente documentate, controllate e corrette?"
+        },
+        {
+          "id": "10.2.1-SSL",
+          "clause": "10.2.1",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Per la SSL sono inclusi incidenti/infortuni e relativa gestione nelle non conformità e azioni correttive?"
+        },
+        {
+          "id": "10.2.2-01",
+          "clause": "10.2.2 / E&H 10.2",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I risultati delle azioni correttive sono documentati e controllati?"
+        },
+        {
+          "id": "10.3-01",
+          "clause": "10.3",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I risultati delle analisi e valutazioni sono utilizzati per migliorare continuamente l'efficacia del sistema di gestione?"
+        }
+      ]
+    },
+    {
+      "code": "CLOSING",
+      "title": "Closing meeting",
+      "type": "special",
+      "items": [
+        {
+          "id": "CLOSE-01",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "I rappresentanti responsabili per gli aspetti legali SSL e salute dei lavoratori erano presenti, oppure è stata motivata l'assenza?"
+        },
+        {
+          "id": "CLOSE-02",
+          "clause": "Closing",
+          "norms": [
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Il rappresentante dei lavoratori per la SSL era presente, oppure è stata motivata l'assenza?"
+        },
+        {
+          "id": "CLOSE-03",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati confermati standard di riferimento, requisiti speciali di schema, scopo di registrazione e riservatezza?"
+        },
+        {
+          "id": "CLOSE-04",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "È stato spiegato che l'audit si basa su un campione e sono state illustrate le non conformità emerse?"
+        },
+        {
+          "id": "CLOSE-05",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Il cliente è stato invitato a discutere le NC ed è stato informato della raccomandazione di certificazione / mantenimento?"
+        },
+        {
+          "id": "CLOSE-06",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati spiegati reclami, ricorsi, processo di azioni correttive e relative tempistiche?"
+        },
+        {
+          "id": "CLOSE-07",
+          "clause": "Closing",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Iniziale",
+            "1° Sorveglianza",
+            "2° Sorveglianza",
+            "Rinnovo"
+          ],
+          "requirement": "Sono stati spiegati processo di emissione certificato, sorveglianze, regolamenti e regole d'uso dei marchi quando applicabili?"
+        }
+      ]
+    },
+    {
+      "code": "RECERT",
+      "title": "Re-certification checklist",
+      "type": "special",
+      "items": [
+        {
+          "id": "RECERT-01",
+          "clause": "Re-certification",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Rinnovo"
+          ],
+          "requirement": "È stata verificata la data di scadenza dei certificati correnti per le norme applicabili?"
+        },
+        {
+          "id": "RECERT-02",
+          "clause": "Re-certification",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Rinnovo"
+          ],
+          "requirement": "Ci sono stati cambiamenti significativi al sistema di gestione o allo scopo delle attività? Se sì, sono descritti?"
+        },
+        {
+          "id": "RECERT-03",
+          "clause": "Re-certification",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Rinnovo"
+          ],
+          "requirement": "Gli obiettivi del sistema di gestione sono stati raggiunti e riesaminati rispetto a idoneità e politica?"
+        },
+        {
+          "id": "RECERT-04",
+          "clause": "Re-certification",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Rinnovo"
+          ],
+          "requirement": "Sono disponibili esempi di obiettivi misurabili e un commento sul loro andamento nel triennio?"
+        },
+        {
+          "id": "RECERT-05",
+          "clause": "Re-certification",
+          "norms": [
+            "9001",
+            "14001",
+            "45001"
+          ],
+          "stage_visibility": [
+            "Rinnovo"
+          ],
+          "requirement": "Sono state considerate performance commerciali, acquisti, produzione/servizi e indicatori pertinenti nel triennio?"
+        }
+      ]
+    }
+  ]
+}
