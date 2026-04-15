@@ -1173,7 +1173,7 @@ def sidebar_header_form() -> None:
     current_user = st.session_state.get("username", "")
 
     if LOGO_PATH.exists():
-        st.sidebar.image(str(LOGO_PATH), use_container_width=True)
+        st.sidebar.image(str(LOGO_PATH), width=150)
         st.sidebar.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
 
     st.sidebar.markdown(
