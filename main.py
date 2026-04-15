@@ -207,6 +207,7 @@ hr {{
 # PERCORSI DATI
 # -----------------------------
 BASE_DIR = Path(__file__).parent
+LOGO_PATH = BASE_DIR / "assets" / "logo.png"
 DATA_DIR = BASE_DIR / "data_certificazione"
 CHECKLIST_PATH = BASE_DIR / "checklist_audit_iso.json"
 TEMPLATE_DOCX_PATH = BASE_DIR / "Template_CheckList_MARKER.docx"
@@ -1170,6 +1171,10 @@ def build_word_report(payload: Dict[str, Any]) -> bytes:
 # -----------------------------
 def sidebar_header_form() -> None:
     current_user = st.session_state.get("username", "")
+
+    if LOGO_PATH.exists():
+        st.sidebar.image(str(LOGO_PATH), use_container_width=True)
+        st.sidebar.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
 
     st.sidebar.markdown(
         f"""
